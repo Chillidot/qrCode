@@ -1,0 +1,74 @@
+/***** IMPORTS *****/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/***** GENERAL *****/
+/** Variables **/
+:root{
+    --clr-white: #FFFFFF;
+    --clr-light-gray: #d6e2f0;
+    --clr-gray-blue: #7b879d;
+    --clr-dark-blue: #1f3251;
+    --ff-primary: 'Outfit', sans-serif;
+}
+
+/** Tags **/
+body{
+    margin: 0;
+    font-family: var(--ff-primary);
+    background-color: var(--clr-light-gray);
+}
+
+h2{
+    font-weight: 700;
+}
+
+p{
+    color: var(--clr-gray-blue);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/** Variables **/
+/** Tags **/
+
+/***** GRID *****/
+/***** FLEX *****/
+/***** STRUCTURE *****/
+/** header **/
+/** nav **/
+/** main **/
+/** footer **/
+
+/***** ITEMS ******/
+/** Card **/
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--clr-white);
+    margin: 11vh 37vw;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.1);
+}
+
+/***** SITES *****/
+/***** MEDIAQUERIES *****/
+@media only screen and (max-width: 376px){
+    .card{
+        margin: 10vh 5vw;
+    }
+}
+
+/***** ANIMATIONS *****/
+/***** OTHER *****/
+.attribution{
+    font-size: 11px; text-align: center;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
